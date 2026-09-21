@@ -1,6 +1,3 @@
 build/
-*.uf2
-*.elf
-*.bin
-*.log
-!tools.log
+.vscode/
+.DS_Store
