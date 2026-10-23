@@ -16,11 +16,11 @@ uint line_length = 0;
 
 typedef void (*command_handler_t)(void);
 
-struct command_t
+typedef struct
 {
     const char *name;
     command_handler_t handler;
-};
+} command_t;
 
 static void cmd_enable(void)
 {
@@ -49,7 +49,7 @@ static void cmd_ping(void)
     printf("pong\n");
 }
 
-const struct command_t commands[] = {
+const command_t commands[] = {
     { "enable",  cmd_enable  },
     { "disable", cmd_disable },
     { "info",    cmd_info    },
