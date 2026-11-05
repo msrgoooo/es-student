@@ -5,6 +5,7 @@
 #include "led.h"
 #include "log.h"
 #include "device.h"
+#include "memory.h"
 
 const uint BUTTON_PIN = 15;
 const uint DEBOUNCE_MS = 20;
@@ -49,13 +50,19 @@ static void cmd_ping(void)
     printf("pong\n");
 }
 
+static void cmd_mem_info(void)
+{
+    mem_info();
+}
+
 const struct command_t commands[] = {
     { "enable",  cmd_enable  },
     { "disable", cmd_disable },
     { "info",    cmd_info    },
     { "version", cmd_version },
     { "ping",    cmd_ping    },
-};
+    { "mem_info", cmd_mem_info},
+};  
 
 #define COMMAND_COUNT (sizeof(commands) / sizeof(commands[0]))
 
