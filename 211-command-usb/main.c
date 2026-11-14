@@ -6,6 +6,7 @@
 #include "log.h"
 #include "device.h"
 #include "memory.h"
+#include "command.h"
 
 const uint BUTTON_PIN = 15;
 const uint DEBOUNCE_MS = 20;

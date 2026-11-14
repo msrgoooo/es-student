@@ -3,62 +3,62 @@
 устройство: 2e8a:000a
 серийный номер: 50355860627D759F
 порт: COM10
-начало: 2026-11-14T21:20:17
+начало: 2026-11-14T21:30:21
    0.000 --> fw_info
-   0.140 <-- fw_info
-   0.140 <-- dbg read_line:117 got fw_info
-   0.140 <-- object             address      value
-   0.140 <-- main               0x10000329 0xb5f0
-   0.140 <-- fw_info            0x1000069d 0x4b3e
-   0.140 <-- commands           0x10007bc4
-   0.140 <-- enable           0x100002ed
-   0.140 <-- disable          0x100002b1
-   0.140 <-- info             0x100002a9
-   0.140 <-- version          0x100002a1
-   0.140 <-- ping             0x10000291
-   0.140 <-- mem_info         0x10000289
-   0.140 <-- fw_info          0x10000281
-   0.140 <-- DEVICE_NAME        0x100076b4 es-led-module
-   0.140 <-- data_variable      0x20000f40 101
-   0.140 <-- bss_variable       0x20001f0c 1
-   0.140 <-- stack_variable     0x20041f7c 1946
-   0.140 <-- heap_variable      0x20002408 1951
-   2.172 --> fw_info
-   2.328 <-- fw_info
-   2.328 <-- dbg read_line:117 got fw_info
-   2.328 <-- object             address      value
-   2.328 <-- main               0x10000329 0xb5f0
-   2.328 <-- fw_info            0x1000069d 0x4b3e
-   2.328 <-- commands           0x10007bc4
-   2.328 <-- enable           0x100002ed
-   2.328 <-- disable          0x100002b1
-   2.328 <-- info             0x100002a9
-   2.328 <-- version          0x100002a1
-   2.328 <-- ping             0x10000291
-   2.328 <-- mem_info         0x10000289
-   2.328 <-- fw_info          0x10000281
-   2.328 <-- DEVICE_NAME        0x100076b4 es-led-module
-   2.328 <-- data_variable      0x20000f40 102
-   2.328 <-- bss_variable       0x20001f0c 2
-   2.328 <-- stack_variable     0x20041f7c 1946
-   2.328 <-- heap_variable      0x20002408 1951
-   4.359 --> fw_info
-   4.500 <-- fw_info
-   4.500 <-- dbg read_line:117 got fw_info
-   4.515 <-- object             address      value
-   4.515 <-- main               0x10000329 0xb5f0
-   4.515 <-- fw_info            0x1000069d 0x4b3e
-   4.515 <-- commands           0x10007bc4
-   4.515 <-- enable           0x100002ed
-   4.515 <-- disable          0x100002b1
-   4.515 <-- info             0x100002a9
-   4.515 <-- version          0x100002a1
-   4.515 <-- ping             0x10000291
-   4.515 <-- mem_info         0x10000289
-   4.515 <-- fw_info          0x10000281
-   4.515 <-- DEVICE_NAME        0x100076b4 es-led-module
-   4.515 <-- data_variable      0x20000f40 103
-   4.515 <-- bss_variable       0x20001f0c 3
-   4.515 <-- stack_variable     0x20041f7c 1946
-   4.515 <-- heap_variable      0x20002408 1951
+   0.141 <-- fw_info
+   0.141 <-- dbg read_line:118 got fw_info
+   0.157 <-- object             address      value
+   0.157 <-- main               0x10000329 0xb5f0
+   0.157 <-- fw_info            0x1000069d 0x4b3e
+   0.157 <-- commands           0x10007bc4
+   0.157 <-- enable           0x100002ed
+   0.157 <-- disable          0x100002b1
+   0.157 <-- info             0x100002a9
+   0.157 <-- version          0x100002a1
+   0.157 <-- ping             0x10000291
+   0.157 <-- mem_info         0x10000289
+   0.157 <-- fw_info          0x10000281
+   0.157 <-- DEVICE_NAME        0x100076b4 es-led-module
+   0.157 <-- data_variable      0x20000f40 101
+   0.157 <-- bss_variable       0x20001f0c 1
+   0.157 <-- stack_variable     0x20041f7c 1946
+   0.157 <-- heap_variable      0x20002408 1951
+   2.204 --> fw_info
+   2.344 <-- fw_info
+   2.344 <-- dbg read_line:118 got fw_info
+   2.360 <-- object             address      value
+   2.360 <-- main               0x10000329 0xb5f0
+   2.360 <-- fw_info            0x1000069d 0x4b3e
+   2.360 <-- commands           0x10007bc4
+   2.360 <-- enable           0x100002ed
+   2.360 <-- disable          0x100002b1
+   2.360 <-- info             0x100002a9
+   2.360 <-- version          0x100002a1
+   2.360 <-- ping             0x10000291
+   2.360 <-- mem_info         0x10000289
+   2.360 <-- fw_info          0x10000281
+   2.360 <-- DEVICE_NAME        0x100076b4 es-led-module
+   2.360 <-- data_variable      0x20000f40 102
+   2.360 <-- bss_variable       0x20001f0c 2
+   2.360 <-- stack_variable     0x20041f7c 1946
+   2.360 <-- heap_variable      0x20002408 1951
+   4.407 --> fw_info
+   4.547 <-- fw_info
+   4.547 <-- dbg read_line:118 got fw_info
+   4.547 <-- object             address      value
+   4.563 <-- main               0x10000329 0xb5f0
+   4.563 <-- fw_info            0x1000069d 0x4b3e
+   4.563 <-- commands           0x10007bc4
+   4.563 <-- enable           0x100002ed
+   4.563 <-- disable          0x100002b1
+   4.563 <-- info             0x100002a9
+   4.563 <-- version          0x100002a1
+   4.563 <-- ping             0x10000291
+   4.563 <-- mem_info         0x10000289
+   4.563 <-- fw_info          0x10000281
+   4.563 <-- DEVICE_NAME        0x100076b4 es-led-module
+   4.563 <-- data_variable      0x20000f40 103
+   4.563 <-- bss_variable       0x20001f0c 3
+   4.563 <-- stack_variable     0x20041f7c 1946
+   4.563 <-- heap_variable      0x20002408 1951
 итог: отправлено команд 3, принято строк 54
