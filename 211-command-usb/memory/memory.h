@@ -6,5 +6,6 @@
 // (image, free, boot2, text, data flash, data ram, bss, heap, stack)
 // и итог — вес образа, остаток флеша, занятая и свободная RAM.
 void mem_info(void);
+void fw_info(void);
 
 #endif // MEMORY_H
