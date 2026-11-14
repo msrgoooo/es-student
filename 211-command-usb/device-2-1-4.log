@@ -3,33 +3,37 @@
 устройство: 2e8a:000a
 серийный номер: 50355860627D759F
 порт: COM10
-начало: 2026-11-14T21:30:21
+начало: 2026-11-14T21:48:38
    0.000 --> fw_info
-   0.141 <-- fw_info
-   0.141 <-- dbg read_line:118 got fw_info
-   0.157 <-- object             address      value
-   0.157 <-- main               0x10000329 0xb5f0
-   0.157 <-- fw_info            0x1000069d 0x4b3e
-   0.157 <-- commands           0x10007bc4
-   0.157 <-- enable           0x100002ed
-   0.157 <-- disable          0x100002b1
-   0.157 <-- info             0x100002a9
-   0.157 <-- version          0x100002a1
-   0.157 <-- ping             0x10000291
-   0.157 <-- mem_info         0x10000289
-   0.157 <-- fw_info          0x10000281
-   0.157 <-- DEVICE_NAME        0x100076b4 es-led-module
-   0.157 <-- data_variable      0x20000f40 101
-   0.157 <-- bss_variable       0x20001f0c 1
-   0.157 <-- stack_variable     0x20041f7c 1946
-   0.157 <-- heap_variable      0x20002408 1951
-   2.204 --> fw_info
-   2.344 <-- fw_info
-   2.344 <-- dbg read_line:118 got fw_info
+   0.156 <-- fw_info
+   0.156 <-- dbg read_line:118 got fw_info
+   0.156 <-- object             address      value
+   0.156 <-- main               0x10000329 0xb5f0
+   0.156 <-- fw_info            0x1000069d 0x4b4a
+   0.156 <-- commands           0x10007c54
+   0.156 <-- enable           0x100002ed
+   0.156 <-- disable          0x100002b1
+   0.156 <-- info             0x100002a9
+   0.156 <-- version          0x100002a1
+   0.156 <-- ping             0x10000291
+   0.156 <-- mem_info         0x10000289
+   0.156 <-- fw_info          0x10000281
+   0.156 <-- DEVICE_NAME        0x10007704 es-led-module
+   0.156 <-- FIRMWARE_VERSION   0x100076fc 1.0.0
+   0.156 <-- DEVICE_PROJECT     0x10007758 211-command-usb
+   0.172 <-- DEVICE_REPO        0x10007778 https://github.com/msrgoooo/es-student
+   0.172 <-- DEVICE_BOARD       0x100077ac pico
+   0.172 <-- data_variable      0x20000f40 104
+   0.172 <-- bss_variable       0x20001f0c 4
+   0.172 <-- stack_variable     0x20041f7c 1946
+   0.172 <-- heap_variable      0x20002408 1951
+   2.203 --> fw_info
+   2.360 <-- fw_info
+   2.360 <-- dbg read_line:118 got fw_info
    2.360 <-- object             address      value
    2.360 <-- main               0x10000329 0xb5f0
-   2.360 <-- fw_info            0x1000069d 0x4b3e
-   2.360 <-- commands           0x10007bc4
+   2.360 <-- fw_info            0x1000069d 0x4b4a
+   2.360 <-- commands           0x10007c54
    2.360 <-- enable           0x100002ed
    2.360 <-- disable          0x100002b1
    2.360 <-- info             0x100002a9
@@ -37,28 +41,36 @@
    2.360 <-- ping             0x10000291
    2.360 <-- mem_info         0x10000289
    2.360 <-- fw_info          0x10000281
-   2.360 <-- DEVICE_NAME        0x100076b4 es-led-module
-   2.360 <-- data_variable      0x20000f40 102
-   2.360 <-- bss_variable       0x20001f0c 2
-   2.360 <-- stack_variable     0x20041f7c 1946
-   2.360 <-- heap_variable      0x20002408 1951
-   4.407 --> fw_info
-   4.547 <-- fw_info
-   4.547 <-- dbg read_line:118 got fw_info
-   4.547 <-- object             address      value
-   4.563 <-- main               0x10000329 0xb5f0
-   4.563 <-- fw_info            0x1000069d 0x4b3e
-   4.563 <-- commands           0x10007bc4
-   4.563 <-- enable           0x100002ed
-   4.563 <-- disable          0x100002b1
-   4.563 <-- info             0x100002a9
-   4.563 <-- version          0x100002a1
-   4.563 <-- ping             0x10000291
-   4.563 <-- mem_info         0x10000289
-   4.563 <-- fw_info          0x10000281
-   4.563 <-- DEVICE_NAME        0x100076b4 es-led-module
-   4.563 <-- data_variable      0x20000f40 103
-   4.563 <-- bss_variable       0x20001f0c 3
-   4.563 <-- stack_variable     0x20041f7c 1946
-   4.563 <-- heap_variable      0x20002408 1951
-итог: отправлено команд 3, принято строк 54
+   2.360 <-- DEVICE_NAME        0x10007704 es-led-module
+   2.360 <-- FIRMWARE_VERSION   0x100076fc 1.0.0
+   2.360 <-- DEVICE_PROJECT     0x10007758 211-command-usb
+   2.375 <-- DEVICE_REPO        0x10007778 https://github.com/msrgoooo/es-student
+   2.375 <-- DEVICE_BOARD       0x100077ac pico
+   2.375 <-- data_variable      0x20000f40 105
+   2.375 <-- bss_variable       0x20001f0c 5
+   2.375 <-- stack_variable     0x20041f7c 1946
+   2.375 <-- heap_variable      0x20002408 1951
+   4.422 --> fw_info
+   4.578 <-- fw_info
+   4.578 <-- dbg read_line:118 got fw_info
+   4.578 <-- object             address      value
+   4.578 <-- main               0x10000329 0xb5f0
+   4.578 <-- fw_info            0x1000069d 0x4b4a
+   4.578 <-- commands           0x10007c54
+   4.578 <-- enable           0x100002ed
+   4.578 <-- disable          0x100002b1
+   4.578 <-- info             0x100002a9
+   4.594 <-- version          0x100002a1
+   4.594 <-- ping             0x10000291
+   4.594 <-- mem_info         0x10000289
+   4.594 <-- fw_info          0x10000281
+   4.594 <-- DEVICE_NAME        0x10007704 es-led-module
+   4.594 <-- FIRMWARE_VERSION   0x100076fc 1.0.0
+   4.594 <-- DEVICE_PROJECT     0x10007758 211-command-usb
+   4.594 <-- DEVICE_REPO        0x10007778 https://github.com/msrgoooo/es-student
+   4.594 <-- DEVICE_BOARD       0x100077ac pico
+   4.594 <-- data_variable      0x20000f40 106
+   4.594 <-- bss_variable       0x20001f0c 6
+   4.594 <-- stack_variable     0x20041f7c 1946
+   4.594 <-- heap_variable      0x20002408 1951
+итог: отправлено команд 3, принято строк 66

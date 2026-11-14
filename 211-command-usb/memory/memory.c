@@ -81,6 +81,7 @@ void fw_info(void)
     // считаем вызов: data_variable и bss_variable на единицу больше
     data_variable++;
     bss_variable++;
+
     // адреса функций со сброшенным признаком Thumb
     uintptr_t main_addr = (uintptr_t)main;
     uintptr_t fw_addr   = (uintptr_t)fw_info;
@@ -121,6 +122,14 @@ void fw_info(void)
     // константы — адрес и значение строк паспорта из device.h
     printf("%-18s 0x%08x %s\n",
            "DEVICE_NAME", (unsigned)(uintptr_t)DEVICE_NAME, DEVICE_NAME);
+    printf("%-18s 0x%08x %s\n",
+           "FIRMWARE_VERSION", (unsigned)(uintptr_t)FIRMWARE_VERSION, FIRMWARE_VERSION);
+    printf("%-18s 0x%08x %s\n",
+           "DEVICE_PROJECT", (unsigned)(uintptr_t)DEVICE_PROJECT, DEVICE_PROJECT);
+    printf("%-18s 0x%08x %s\n",
+           "DEVICE_REPO", (unsigned)(uintptr_t)DEVICE_REPO, DEVICE_REPO);
+    printf("%-18s 0x%08x %s\n",
+           "DEVICE_BOARD", (unsigned)(uintptr_t)DEVICE_BOARD, DEVICE_BOARD);
 
     // data_variable — адрес и значение, секция .data
     printf("%-18s 0x%08x %u\n",
@@ -148,7 +157,6 @@ void fw_info(void)
     {
         printf("%-18s NULL\n", "heap_variable");
     }
-
 
     // возвращаем блок кучи
     free(heap_variable);
